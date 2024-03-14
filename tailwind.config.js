@@ -2,8 +2,10 @@
 module.exports = {
   content: ["./src/*.html"],
   theme: {
-    extend: {},
-  },
-  plugins: [],
+    extend: {
+      backgroundImage: {
+        'hero-img': "url('/assets/images/hero-bg.avif')",
+      }
+    }
+  }
 }
-
