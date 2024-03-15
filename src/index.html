@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="style2.css" />
   </head>
   <body class="overflow-x-hidden">
-    <section class="hero bg-hero-img w-screen h-[70vh] bg-no-repeat bg-cover" >
+    <section class="hero bg-hero-img w-screen h-[70vh] bg-no-repeat bg-cover">
       <nav>
         <ul
           class="flex justify-end mx-28 items-center min-h-12 space-x-6 text-md font-light text-white hover:cursor-pointer"
@@ -46,7 +46,9 @@
         </h1>
       </div>
       <div class="flex justify-center items-center overflow-hidden">
-        <div class="search-bar h-[50px] w-[60vw] bg-white rounded-lg grid px-[10px]">
+        <div
+          class="search-bar h-[50px] w-[60vw] bg-white rounded-lg grid px-[10px]"
+        >
           <div class="map-icon py-[50%]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -88,55 +90,121 @@
         </div>
       </div>
     </section>
-    <section class = "mb-20 cards-wrapper ">
-      <div class = "card border overflow-hidden rounded-3xl border-gray-300 h-auto w-[40vw] transition-all ease-in mt-12 mx-20 hover:scale-[1.03]">
-       <img class="w-[40vw] h-[250px] object-cover translate-t-[-30%]" src = "https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" />
-       <div class="p-5">
-         <h2>Order Online</h2>
-         <p>Stay home and order to your doorstep</p>
+    <section class="mb-20 cards-wrapper">
+      <div
+        class="card border overflow-hidden rounded-3xl border-gray-300 h-auto w-[40vw] transition-all ease-in mt-12 mx-20 hover:scale-[1.03]"
+      >
+        <img
+          class="w-[40vw] h-[250px] object-cover translate-t-[-30%]"
+          src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"
+        />
+        <div class="p-5">
+          <h2>Order Online</h2>
+          <p>Stay home and order to your doorstep</p>
         </div>
       </div>
-      </section>
-      <section class="mx-20 ">
-        <h2 class="font-medium text-gray-800 text-3xl">Popular localities in and around Motihari</h2>
-        <div class="popular mt-3 grid border border-gray-300 p-3 rounded-xl w-[400px]">
-          <h1>Motihari Locality</h1>
-          <p class="col-start-1 col-end-2">134 Places</p>
-          <p class="col-start-2 col-end-3 place-self-center"><i class="fa-solid fa-angle-right"></i></p>
+    </section>
+    <section class="mx-20">
+      <h2 class="font-medium text-gray-800 text-3xl">
+        Popular localities in and around Motihari
+      </h2>
+      <div
+        class="popular mt-3 grid border border-gray-300 p-3 rounded-xl w-[400px]"
+      >
+        <h1>Motihari Locality</h1>
+        <p class="col-start-1 col-end-2">134 Places</p>
+        <p class="col-start-2 col-end-3 place-self-center">
+          <i class="fa-solid fa-angle-right"></i>
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="mt-32 mb-20 w-[90%] flex justify-center items-center bg-[#FFFBF7]"
+    >
+      <div
+        class="flex w-[80%] space-x-1 justify-center items-center bg-[#FFFBF7]"
+      >
+        <img
+          src="https://b.zmtcdn.com/data/o2_assets/f773629053b24263e69f601925790f301680693809.png"
+          class="w-72 object-cover"
+        />
+        <div class="flex flex-col gap-3">
+          <h1 class="font-medium text-4xl">Get the Zomato App</h1>
+          <h2 class="text-sm">
+            We will send you a link, open it and download the app now
+          </h2>
+          <div class="flex items-center space-x-3">
+            <div>
+              <input
+                type="radio"
+                name="email"
+                id="email-id"
+                class="accent-pink-600 size-4 hover:cursor-pointer"
+              />
+              <label for="email-id">Email</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="email"
+                id="phone-no"
+                class="accent-pink-600 size-4 hover:cursor-pointer"
+              />
+              <label for="phone-no">Phone</label>
+            </div>
+          </div>
+          <div class="flex flex-wrap space-x-3">
+            <input
+              type="text"
+              placeholder="Email"
+              class="py-3 px-2 border h-[50px] w-72 border-gray-400 rounded-lg"
+            />
+            <button
+              class="bg-[#EF4F5F] h-[50px] border-none py-3 px-3 text-white rounded-md hover:bg-pink-800 transition-all ease-in-out"
+            >
+              Share App Link
+            </button>
+          </div>
+          <div class="flex flex-col">
+            <h5>Download App From</h5>
+            <div class="flex flex-row space-x-2">
+              <img
+                class="hover:cursor-pointer w-32"
+                src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"
+              />
+              <img
+                class="hover:cursor-pointer w-32"
+                src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"
+              />
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
+    </section>
+    <section class="explorewala mx-20">
+      <h1 class="mb-5 text-4xl font-medium">Explore options near me</h1>
 
+      <details class="p-3 border rounded-lg mb-5">
+        <summary class="text-2xl hover:cursor-pointer">
+          Popular cuisines near me
+        </summary>
+        <p class="mt-8">cant copy all that so :></p>
+      </details>
 
+      <details class="p-3 border rounded-lg mb-5">
+        <summary class="text-2xl hover:cursor-pointer">
+          Popular restaurant types near me
+        </summary>
+        <p class="mt-8">cant copy all that so :></p>
+      </details>
 
-		<section class = "mt-32 w-[90%] flex justify-center items-center bg-[#FFFBF7]">
-			<div class = "flex w-[80%] space-x-1 justify-center items-center bg-[#FFFBF7]">
-					<img src = "https://b.zmtcdn.com/data/o2_assets/f773629053b24263e69f601925790f301680693809.png"  class="w-72 object-cover"/>
-				<div class = "flex flex-col gap-3">
-					<h1 class="font-medium text-4xl">Get the Zomato App</h1>
-					<h2 class="text-sm">We will send you a link, open it and download the app now</h2>
-					<div class = "flex items-center space-x-3">
-						<div>
-              <input type="radio" name="email" id="email-id" class="accent-pink-600 size-4  hover:cursor-pointer">
-							<label for = "email-id" >Email</label>
-						</div>
-							<div>
-                <input type="radio" name="email" id="phone-no" class="accent-pink-600 size-4 hover:cursor-pointer">
-                <label for = "phone-no">Phone</label>
-						</div>
-					</div>
-					<div class = "flex flex-wrap space-x-3">
-						<input type = "text" placeholder = "Email" class=" py-3 px-2 border h-[50px] w-72 border-gray-400 rounded-lg" />
-						<button class="bg-[#EF4F5F]  h-[50px] border-none py-3 px-3  text-white rounded-md hover:bg-pink-800 transition-all ease-in-out">Share App Link</button>
-					</div>
-          <div class = "flex flex-col">
-						<h5>Download App From</h5>
-						<div class="flex flex-row space-x-2">
-							<img class="hover:cursor-pointer w-32"src = "https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"/>
-							<img class="hover:cursor-pointer w-32"src = "https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" />
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+      <details class="p-3 border rounded-lg mb-5">
+        <summary class="text-2xl hover:cursor-pointer">
+          Cities We Deliver To
+        </summary>
+        <p class="mt-8">cant copy all that so :></p>
+      </details>
+    </section>
   </body>
 </html>

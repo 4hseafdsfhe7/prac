@@ -12,3 +12,31 @@ input:focus{
 
     grid-template:auto/ auto 30px;
 }
+
+
+
+
+
+
+
+
+  .explorewala{
+
+  details summary {
+    list-style: none;
+  }
+  
+  summary:after {
+    content: ">";
+    transform: rotate(90deg);
+    color: black;
+    position: absolute;
+    font-size: 2rem;
+    right: 10%;
+  }
+  details[open] summary:after {
+    transform: rotate(270deg);
+  }
+}
+
+  
